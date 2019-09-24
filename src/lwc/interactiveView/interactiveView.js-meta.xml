@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="urn:metadata.tooling.soap.sforce.com" fqn="interactiveView">
+    <apiVersion>46.0</apiVersion>
+    <isExposed>true</isExposed>
+  
+    <masterLabel>interactive view</masterLabel>
+  
+    <description>an interactive view</description>
+
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+
+</LightningComponentBundle>
